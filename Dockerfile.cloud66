@@ -9,3 +9,5 @@ RUN apt-get update -y \
 
 COPY . /app
 RUN yarn install
+
+break
